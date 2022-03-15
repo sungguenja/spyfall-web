@@ -51,6 +51,11 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+
+    ## myapp
+
+    ## third party
+    'channels',
 ]
 
 MIDDLEWARE = [
@@ -82,7 +87,7 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'kspyfall.wsgi.application'
-
+ASGI_APPLICATION = 'kspyfall.asgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
